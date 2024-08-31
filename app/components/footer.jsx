@@ -3,7 +3,7 @@ import Link from 'next/link'; // Import Link for navigation
 
 const Footer = () => {
   return (
-    <footer className="bg- text-white py-8">
+    <footer className="bg-black text-white py-8">
       <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
         <div className="text-center md:text-left">
           <h2 className="text-3xl font-bold mb-2">MelyTaste</h2>

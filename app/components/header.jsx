@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-800 text-white p-4">
+    <header className="bg-gray-800 text-white p-5 md:px-6 md:py-12">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">MelyTaste {'\u{1F35D}'}</h1>
         <nav>
