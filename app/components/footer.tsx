@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link'; // Import Link for navigation
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -12,8 +13,8 @@ const Footer = () => {
           </p>
         </div>
         <div className="text-center md:text-left">
-          <h3 className="justify-center text-xl font-semibold mb-2">Quick Links</h3>
-          <div className='flex justify-between gap-8'>
+          <h3 className="justify-center items-center text-xl font-semibold mb-2">Quick Links</h3>
+          <div className='flex justify-between'>
             <ul className="space-y-2">
                 <li><Link href="/" className="hover:text-gray-400">Home</Link></li>
                 <li><Link href="/about" className="hover:text-gray-400">About</Link></li>
@@ -38,16 +39,16 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-2">Follow Us</h3>
           <div className="flex justify-center md:justify-start space-x-4">
             <Link href="/" className="text-gray-400 hover:text-gray-300">
-              <img src="/img/icons/instagram.svg" alt="Instagram" className="w-6 h-6" />
+              <Image src="/img/icons/instagram.svg" alt="Instagram" width={8} height={8} className="w-6 h-6" />
             </Link>
             <Link href="/" className="text-gray-400 hover:text-gray-300">
-              <img src="/img/icons/facebook.svg" alt="Facebook" className="w-6 h-6" />
+              <Image src="/img/icons/facebook.svg" alt="Facebook" width={8} height={8} className="w-6 h-6" />
             </Link>
             <Link href="/" className="text-gray-400 hover:text-gray-300">
-              <img src="/img/icons/snapchat.svg" alt="Snapchat" className="w-6 h-6" />
+              <Image src="/img/icons/snapchat.svg" alt="Snapchat" width={8} height={8} className="w-6 h-6" />
             </Link>
             <Link href="/" className="text-gray-400 hover:text-gray-300">
-              <img src="/img/icons/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
+              <Image src="/img/icons/whatsapp.svg" alt="WhatsApp" width={8} height={8} className="w-6 h-6" />
             </Link>
           </div>
         </div>
