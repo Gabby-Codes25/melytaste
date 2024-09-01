@@ -14,9 +14,6 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <head>
-        {/* Next.js will automatically use the metadata for the head */}
-      </head>
       <body>
         <Header />
         {children}
